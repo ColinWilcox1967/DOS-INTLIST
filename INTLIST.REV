@@ -1,0 +1,29 @@
+                  Vers. 1.51   24/6/94  Minor bug fix with newline printing
+                                        with interrupts $68 .. $6F.
+                  Vers. 1.5    21/6/94  Fixed bug created by not closing file
+                                        when using /ALL option - causing end
+                                        of data file to be lost.
+                  Vers. 1.4    20/6/94  Reentry of source code for version
+                                        1.3.
+                                        Added VERSION_DATE constant for use
+                                        in program heading.
+                                        Added global constants to interrupt
+                                        description.
+                                        Add UNIX compatability in switch
+                                        formats.
+                                        Fixed bug with descriptions for
+                                        interrupts $4F to $5F.
+                                        Fixed Bug causing runtime error, when
+                                        running in debug mode.
+                                        Added DOS version and OEM Serial Number
+                                        to debug information.
+                  Vers. 1.3    31/3/94  Added /- debug switch. (* Unlisted *)
+                                        Added /F flag to redirect output to
+                                        a file.
+                  Vers. 1.2    30/3/94  Fixed linefeed bug in interrupt list
+                                        when /P=JR is specified.
+                                        Fixed bug when using /ALL switch, so
+                                        that it actually works.
+                  Vers. 1.1    22/3/94  Modified /R option to provide
+                                        multiple ranges in the form (x)-(y).
+                  Vers. 1.0    14/3/94  Initial revision.
